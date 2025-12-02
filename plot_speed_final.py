@@ -50,7 +50,7 @@ def plot_speed_comparison():
     # 在图上标注加速倍数 (用红色箭头或文字)
     # 因为是对数坐标，位置需要稍微调整
     def annotate_speedup(idx, j_time, speedup):
-        ax.text(idx, j_time * 1.3, f"Speedup: {speedup:.1f}x",
+        ax.text(idx, j_time * 3, f"Speedup: {speedup:.1f}x",
                 ha='center', color='#d9534f', fontweight='bold', fontsize=12,
                 bbox=dict(facecolor='white', edgecolor='#d9534f', boxstyle='round,pad=0.3'))
 
